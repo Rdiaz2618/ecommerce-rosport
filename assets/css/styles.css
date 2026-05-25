@@ -220,12 +220,8 @@ hr {
   }
 
   .product-cards{
-    gap: 15px;
+    gap: 30px;
   }
-
-.card{
-  margin: 15px auto;
-}
 
 .card img {
   width: 100%;
@@ -252,5 +248,9 @@ hr {
 
   .menu-lat.active {
     left: 0;
+  }
+
+  footer{
+    margin-top: 15px;
   }
 }
