@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce-Grid</ecommerce-grid></title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="ecommerce-container">
+
+<header class="navbar">
+<nav>
+  <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+<h1>E-commerce RoSport</h1>
+</nav>
+</header>
+
+    <aside class="menu-lat" id="menu">
+        <h2>Categorias</h2>
+        <hr>
+      <a class="text-cell" href="#">Mujer (30)</a>
+      <a class="text-cell" href="#">Hombres (23)</a>
+      <a class="text-cell" href="#">Niños (28)</a>
+    </aside>
+
+    <main class="cards-container">
+      <section class="product-cards">
+        <article class="card">
+          <img src="./assets/images/pegasus-premiun.png" alt="Zapatillas Mujer Running" />
+          <h3>Zapatillas Mujer Running</h3>
+          <p>$150.000</p>
+          <button class="btn">Comprar</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/images/conjunto-dama.jpeg" alt="" />
+          <h3>Conjunto Sportswear Mujer</h3>
+          <p>$79.990</p>
+          <button class="btn">Comprar</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/images/nike-zoom.png" alt="" />
+          <h3>Zapatillas Hombre Zoom</h3>
+          <p>$179.990</p>
+          <button class="btn">Comprar</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/images/Polera-hombre.jpeg" alt="" />
+          <h3>Polera Hombre Neón</h3>
+          <p>$20.000</p>
+          <button class="btn">Comprar</button>
+        </article>
+
+        <article class="card">
+          <img src="./assets/images/conjunto-niño.jpeg" alt="conjunto de niño" />
+          <h3>Nike Sportswear Niños</h3>
+          <p>$48.990</p>
+          <button class="btn">Comprar</button>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© RosPort 2026 | Diseño y desarrollo web</p>
+    </footer>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+  </body>
+</html>
