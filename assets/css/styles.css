@@ -45,21 +45,20 @@
   background: #6d1f6d;
   color: white;
 
-  min-height: 80px;
+  min-height: 60px;
   padding: 15px;
 
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 22px;
   letter-spacing: 2px;
 
   text-shadow:
-    0 0 4px #fff,
-    0 0 8px #ff00ff,
-    0 0 16px #ad45ad;
+    0 0 2px #fff,
+    0 0 6px #ff00ff,
+    0 0 14px #ad45ad;
 
   box-shadow:
-    0 0 8px #751775,
-    0 0 16px #831b83;
+    0 0 6px #751775,
+    0 0 14px #831b83;
 }
 
 .menu-lat {
@@ -208,10 +207,11 @@ hr {
 
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr 60px;
+    gap: 15px;
   }
 
    .navbar {
-    font-size: 16px;
+    font-size: 10px;
     text-align: center;
     padding: 10px 40px;
   }
