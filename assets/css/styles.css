@@ -38,25 +38,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   grid-area: navbar;
 
   background: #6d1f6d;
   color: white;
 
+  min-height: 80px;
+  padding: 15px;
+
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
   text-shadow:
-    0 0 5px #fff,
-    0 0 10px #ff00ff,
-    0 0 20px #ad45ad,
-    0 0 40px #eb3deb;
+    0 0 4px #fff,
+    0 0 8px #ff00ff,
+    0 0 16px #ad45ad;
 
   box-shadow:
-    0 0 10px #751775,
-    0 0 20px #831b83,
-    0 0 40px #eb20eb;
-
-  font-size: 20px;
-  font-weight: 700;
+    0 0 8px #751775,
+    0 0 16px #831b83;
 }
 
 .menu-lat {
@@ -206,17 +209,25 @@ hr {
     grid-template-columns: 1fr;
   }
 
-  .navbar h1{
-    font-size: 25px;
+   .navbar {
+    font-size: 22px;
+    min-height: 70px;
+    text-align: center;
+    padding: 10px 40px;
   }
 
   .menu-toggle {
     display: block;
   }
 
-  .product-cards{
-    gap:20px;
-  }
+.card img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0 auto;
+}
   .card:hover {
   box-shadow: 0 0 15px #ff00ff;
   transform: scale(1.05);
