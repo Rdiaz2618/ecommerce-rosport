@@ -197,9 +197,6 @@ hr {
 
 /* CELULAR */
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
 
   .ecommerce-container {
     grid-template-areas:
@@ -208,6 +205,22 @@ hr {
       "footer";
     grid-template-columns: 1fr;
   }
+
+  h1{
+    font-size: 35px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .product-cards{
+    gap:20px;
+  }
+  .card:hover {
+  box-shadow: 0 0 15px #ff00ff;
+  transform: scale(1.05);
+}
 
   .menu-lat {
     position: fixed;
